@@ -4,9 +4,6 @@ from src.blackjack.hand import Hand
 
 
 class GameLogic():
-
-    def __init__(self):
-        pass
     
 
     def take_bet(self, chips: Chips):
