@@ -6,7 +6,7 @@ VENV_DIR="venv"
 source "$VENV_DIR/bin/activate"
 
 # Run your Python program (replace with the actual path to your program)
-python -m src.war_game.game_logic
+python -m src.blackjack.main
 
 # Deactivate the virtual environment (optional)
 deactivate
