@@ -10,5 +10,5 @@ class Card():
         self.rank = rank
         self.value = values[rank.lower()]
         
-    def __str__(self):
+    def __str__(self) -> str:
         return self.rank + " of " + self.suit

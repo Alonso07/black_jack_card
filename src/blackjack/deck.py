@@ -16,10 +16,8 @@ class Deck():
     def shuffle(self):
         random.shuffle(self.all_cards)
     
-    
     def deal_one(self) -> Card:
         return self.all_cards.pop()
-    
     
     def __str__(self)-> str:
         deck_info = ''
